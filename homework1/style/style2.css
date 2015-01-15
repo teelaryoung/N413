@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.clearfix{
+	*zoom: 1;
+	clear:both;
+}
+
+html, body{
+	height:100%;
+}
+
+body{
+	width:100%;
+}
+
+.container{
+	width:960px;
+	margin:0 auto;
+}
+
+.dataList{
+	font-size: 14pt;
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	top:10%;
+}
+
+.dataList li{
+	list-style: none;
+	display: inline-block;
+	margin:50px;
+}
+
+.dataList li a{
+	color:black;
+	text-decoration: none;
+}
+
+.dataList li a:hover{
+	color:green;
+	text-decoration: underline;
+}
