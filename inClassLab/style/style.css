@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.outerContainer{
+	width:100%;
+	height:100%;
+	background:#111624;
+}
+
+.pageOne{
+	width:1020px;
+	height:100%;
+	background:#fff	;
+	margin:0 auto;
+}
+
+#heading{
+	width:100%;
+	text-align: center;
+	padding-top:30px;
+	color:#3E5721;
+
+}
+
+.attendForm, .addStudent{
+	width:60%;
+	margin:0 auto;
+}
+
+.attendForm select{
+	width:100%;
+	height:50px;
+	border:3px solid #3E5721;
+	color:#33221E;
+	font-size:14px;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+.attendForm input{
+	width:98.5%;
+	height:50px;
+	font-size:14px;
+	border:3px solid #3E5721;
+	color:#33221E;
+	margin-top:50px;
+	padding-left:4px;
+}
+
+.attendForm button,
+.addStudent button{
+	width:100%;
+	height:50px;
+	font-size:20px;
+	background:white;
+	border:3px solid #3E5721;
+	color:#33221E;
+	margin-top:10px;
+}
+
+.attendForm button:hover,
+.addStudent button:hover{
+	background:#33221E;
+	color:#3E5721;
+}
+
+.addStudent input{
+	width:98.5%;
+	height:50px;
+	font-size:14px;
+	border:3px solid #3E5721;
+	color:#33221E;
+	margin-top:10px;
+	padding-left:4px;
+}
+
+.dont{
+	width:100%;
+	text-align: center;
+	margin-top:80px;
+	color:#3E5721;
+}
+
+footer{
+	left:43%;
+	position: absolute;
+	bottom:5px;
+	color:#3E5721;
+}
